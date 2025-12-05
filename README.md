@@ -1,9 +1,9 @@
-README — LLM Behavioral Economics Response Workbook
-1. File Description
+# LLM Behavioral Economics Response Workbook
+## 1. File Description
 This Excel workbook contains numeric responses from multiple Large Language Models (LLMs) answering a 14-question behavioral economics questionnaire.
 Each worksheet corresponds to a specific model and temperature condition.
 Each row represents one trial, and each column (Q1–Q14) represents one numeric answer produced by the model.
-2. Worksheets Included
+## 2. Worksheets Included
 The workbook contains the following sheets:
 DeepSeek Reasoner (Temperatures 0 to 2)
 deepseek_0_temp
@@ -48,3 +48,7 @@ All model outputs were generated between October 5 and October 9, 2025. Dates ar
 •	GPT-4.0 (all temperatures): 2025-10-09
 •	GPT-4o (all temperatures): 2025-10-09"
 
+## Citation
+If you use this dataset, please cite:
+
+Erdem et al. (2025). “LLMs Are Not Weird: Comparing AI and Human Financial Decision-Making.”
