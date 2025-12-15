@@ -1,6 +1,11 @@
 # LLMs Are Not Weird Workbook
 This repository contains 3 files for the paper "LLMs Are Not Weird." These are as follows:
-1. Raw Data: 
+
+1. Submission_3_Main_v0.xlsx (Excel file): This is the main Excel file, that is used by the Python code (Submission_3 Analysis) below.
+2. Submission_3 Analyis_v0.ipynb (Python file): This file is the main code file, which works using the data from Submission_3_Main_v0.xlsx.
+3. raw_data_combined.xlxs. This Excel file is not for any calculation. It is just the raw data, in case you are interested to see the individual responses of the LLMs.
+
+# 3. raw_data_combined
 ## 1. File Description
 This Excel workbook contains numeric responses from multiple Large Language Models (LLMs) answering a 14-question behavioral economics questionnaire.
 Each worksheet corresponds to a specific model and temperature condition.
