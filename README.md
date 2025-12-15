@@ -1,4 +1,6 @@
 # LLMs Are Not Weird Workbook
+This repository contains 3 files for the paper "LLMs Are Not Weird." These are as follows:
+1. Raw Data: 
 ## 1. File Description
 This Excel workbook contains numeric responses from multiple Large Language Models (LLMs) answering a 14-question behavioral economics questionnaire.
 Each worksheet corresponds to a specific model and temperature condition.
