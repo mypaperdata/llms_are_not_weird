@@ -27,7 +27,7 @@ This repository contains replication materials for the paper
 conda env create -f environment.yml
 conda activate clustering
 jupyter notebook
----
+```
 
 Then open Submission_3_Analysis_v0.ipynb and run all cells.
 
