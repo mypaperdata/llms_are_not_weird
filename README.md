@@ -1,6 +1,7 @@
 # LLMs Are Not Weird – Workbook
 
 This repository contains replication materials for the paper (for Windows only)
+
 **“LLMs Are Not Weird: Comparing AI and Human Financial Decision-Making.”**
 
 ---
