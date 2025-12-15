@@ -15,7 +15,8 @@ The workbook contains the following sheets:
    b. and humans, which are retrieved from https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-iv/faecher/betriebswirtschaftslehre/team/fin/forschung/research-data. 
 - Hyperbolic: This sheet contains the delta and beta results, which are obtained from the raw data ( raw_data_combined.xlsx)
 - Expected Values: These are the responses of the LLMs and humans compared with the expected values of the questions 5-12. 
-
+## 2. Submission_3 Analyis_v0.ipynb (Python file)
+Main Code file
 ## 3. raw_data_combined.xlsx
 ### 3.A. File Description
 This Excel workbook contains numeric responses from multiple Large Language Models (LLMs) answering a 14-question behavioral economics questionnaire.
