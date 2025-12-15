@@ -12,7 +12,8 @@ This Excel workbook contains the main processed and organized data that is used 
 The workbook contains the following sheets:
 - Trimmed Mean: This is the main sheet that is used by the code. It contains the trimmed responses of 
    a. LLMs, which are derived from 3. raw_data_combined.xlsx below. 
-   b. and humans, which are retrieved from https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-iv/faecher/betriebswirtschaftslehre/team/fin/forschung/research-data. 
+   b. and humans, which are retrieved from https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-iv/faecher/betriebswirtschaftslehre/team/fin/forschung/research-data.
+  These data are calculated using mean trimming of 10% (10% bottom and 10% top)
 - Hyperbolic: This sheet contains the delta and beta results, which are obtained from the raw data ( raw_data_combined.xlsx)
 - Expected Values: These are the responses of the LLMs and humans compared with the expected values of the questions 5-12. 
 ## 2. Submission_3 Analyis_v0.ipynb (Python file)
