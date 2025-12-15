@@ -1,20 +1,35 @@
-# LLMs Are Not Weird Workbook
-This repository contains 3 files for the paper "LLMs Are Not Weird." These are as follows:
+# LLMs Are Not Weird – Workbook
+
+This repository contains replication materials for the paper  
+**“LLMs Are Not Weird: Comparing AI and Human Financial Decision-Making.”**
+
+---
 
 ## Files
-1. Submission_3_Main_v0.xlsx (Excel file): This is the main Excel file, that is used by the Python code (Submission_3 Analysis) below.
-2. Submission_3 Analyis_v0.ipynb (Python file): This file is the main code file, which works using the data from Submission_3_Main_v0.xlsx.
-3. environment.yml
-4. raw_data_combined.xlxs. This Excel file is not for any calculation. It is just the raw data, in case you are interested to see the individual responses of the LLMs.
 
-## How to run (recommended)
+1. `Submission_3_Main_v0.xlsx`  
+   Main processed dataset used by the analysis.
+
+2. `Submission_3_Analysis_v0.ipynb`  
+   Python notebook that performs the analysis using `Submission_3_Main_v0.xlsx`.
+
+3. `environment.yml`  
+   Conda environment file for reproducibility.
+
+4. `raw_data_combined.xlsx`  
+   Raw LLM responses provided for transparency only. This file is **not required** to run the analysis.
+
+---
+
+## How to Run (Recommended)
 
 ```bash
 conda env create -f environment.yml
 conda activate clustering
 jupyter notebook
-Then open Submission_3_Analysis_v0.ipynb and run all cells.
 
+
+Then open Submission_3_Analysis_v0.ipynb and run all cells.
 
 ## Detailed Explanation (In Case you are curious, You don't have to read this part)
 ### 1. Submission_3_Main_v0.xlsx
@@ -84,4 +99,4 @@ All model outputs were generated between October 5 and October 9, 2025. Dates ar
 ## Citation
 If you use this dataset, please cite:
 
-Erdem et al. (2025). “LLMs Are Not Weird: Comparing AI and Human Financial Decision-Making.”
+Erdem and Ashok (2025). “LLMs Are Not Weird: Comparing AI and Human Financial Decision-Making.”
