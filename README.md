@@ -1,4 +1,4 @@
-# LLM Behavioral Economics Response Workbook
+# LLMs Are Not Weird Workbook
 ## 1. File Description
 This Excel workbook contains numeric responses from multiple Large Language Models (LLMs) answering a 14-question behavioral economics questionnaire.
 Each worksheet corresponds to a specific model and temperature condition.
