@@ -31,7 +31,8 @@ jupyter notebook
 
 Then open Submission_3_Analysis_v0.ipynb and run all cells.
 
-## Detailed Explanation (In Case you are curious, You don't have to read this part)
+## Detailed Explanation (Optional)
+
 ### 1. Submission_3_Main_v0.xlsx
 This Excel sheet contains 5 sheets: 
 #### 1.A. File Description
@@ -44,7 +45,7 @@ The workbook contains the following sheets:
   These data are calculated using mean trimming of 10% (10% bottom and 10% top)
 - Hyperbolic: This sheet contains the delta and beta results, which are obtained from the raw data ( raw_data_combined.xlsx)
 - Expected Values: These are the responses of the LLMs and humans compared with the expected values of the questions 5-12. 
-### 2. Submission_3 Analyis_v0.ipynb (Python file)
+### 2. Submission_3 Analysis_v0.ipynb (Python file)
 Main Code file
 ### 3. raw_data_combined.xlsx
 #### 3.A. File Description
@@ -94,7 +95,7 @@ All model outputs were generated between October 5 and October 9, 2025. Dates ar
 •	Gemini (all temperatures): 2025-10-05
 •	DeepSeek Reasoner (all temperatures): 2025-10-08
 •	GPT-4.0 (all temperatures): 2025-10-09
-•	GPT-4o (all temperatures): 2025-10-09"
+•	GPT-4o (all temperatures): 2025-10-09
 
 ## Citation
 If you use this dataset, please cite:
