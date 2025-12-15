@@ -7,9 +7,14 @@ This repository contains 3 files for the paper "LLMs Are Not Weird." These are a
 ## 1. Submission_3_Main_v0.xlsx
 This Excel sheet contains 5 sheets: 
 ### 1.A. File Description
-This Excel workbooks contains the main processed and organized data of both LLMs (which are derived from 3. raw_data_combined.xlsx below) and from (https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-iv/faecher/betriebswirtschaftslehre/team/fin/forschung/research-data). The sheet Trimmed_Mean
-
+This Excel workbook contains the main processed and organized data that is used by the code. 
 ### 1.B. Worksheets Included
+The workbook contains the following sheets:
+- Trimmed Mean: This is the main sheet that is used by the code. It contains the trimmed responses of 
+   a. LLMs, which are derived from 3. raw_data_combined.xlsx below. 
+   b. and humans, which are retrieved from https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-iv/faecher/betriebswirtschaftslehre/team/fin/forschung/research-data. 
+- Hyperbolic: This sheet contains the delta and beta results, which are obtained from the raw data ( raw_data_combined.xlsx)
+- Expected Values: These are the responses of the LLMs and humans compared with the expected values of the questions 5-12. 
 
 ## 3. raw_data_combined.xlsx
 ### 3.A. File Description
